@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.62/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.0","target":"arcade","targetVersion":"2.0.62"}
-// total=2299579 new=24.72% cached=71.22% other=4.06%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.62/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"2.0.62","repo":"dinechouaibi-sudo/catch-the-fish-de-goeie"}
+// total=2299590 new=24.72% cached=71.22% other=4.06%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -27,7 +27,7 @@ const __this = runtime;
 const pxtrt = pxsim.pxtrt;
 let yieldSteps = 1;
 ectx.setupYield(function() { yieldSteps = 100; })
-pxsim.setTitle("catch the fish de goeie");
+pxsim.setTitle("catch the fish de goeie - Kopiëren");
 pxsim.setConfigData({
  "37": 160,
  "38": 120
@@ -545,7 +545,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P24746(s) {
+function _main___P24819(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1173,13 +1173,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P24746.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P24746.continuations = [  ]
+_main___P24819.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P24819.continuations = [  ]
 
-function _main___P24746_mk(s) {
+function _main___P24819_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P24746, depth: s.depth + 1,
+        parent: s, fn: _main___P24819, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -64690,5 +64690,5 @@ const sprites_StaticObstacle__C2514_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["speler___4364","vis___4366","level1Actief___4365","level2Actief___4367","baasLeven2___4369","level3Actief___4371","baasLeven3___4373","EnemyProjectile___4376","PlayerProjectile___4377","level4Actief___4378","level5Actief___4379","level6Actief___4380","level7Actief___4381","level8Actief___4382","onkwetsbaar___4393","baas4___4383","baas5___4384","baas6___4385","baas7___4386","baas8___4387","baasLeven4___4388","baasLeven5___4389","baasLeven6___4390","baasLeven7___4391","baasLeven8___4392","baas3___4372","baasVis___4368"])
 
-return _main___P24746
+return _main___P24819
 })
